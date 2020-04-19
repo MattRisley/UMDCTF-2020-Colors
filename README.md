@@ -34,7 +34,7 @@ Since this is a steganography problem first choice could be `steghide`
     #Enter passphrase:
     ```
 3. Using a dictionary brute force attack on the passphase might do the trick
-    * Downloading the Steghide Brute Force Tool
+    * Downloading a Steghide Brute Force Tool
 
     ```bash
     git clone https://github.com/Va5c0/Steghide-Brute-Force-Tool.git
