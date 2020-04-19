@@ -51,11 +51,11 @@ Since this is a steganography problem first choice could be `steghide`
     ```bash
     cat message.txt
 
-    # UMDCTF-{DID you have some trouble? Colors are difficult :)}
+    # UMDCTF-{Did you have some trouble? Colors are difficult :)}
     ```
 
 ## Flag
 
-**UMDCTF-{DID you have some trouble? Colors are difficult :)}**
+**UMDCTF-{Did you have some trouble? Colors are difficult :)}**
 
 
