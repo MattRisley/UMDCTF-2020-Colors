@@ -27,7 +27,7 @@ Since this is a steganography problem first choice could be `steghide`
     ```bash
     sudo apt-get install steghide
     ```
-2. While tring to extract a file we're prompted for a passphrase not provide. Trying no passphrase does NOT work.
+2. While trying to extract a file we're prompted for a passphrase not provided. Trying no passphrase does NOT work.
 
     ```bash
     steghide extract -sf colors.jpg 
@@ -42,7 +42,7 @@ Since this is a steganography problem first choice could be `steghide`
     * Running the tool reveals the passphrase to be `colors`  
 
     ```bash
-    python steg_brute.py -b -d dic.txt -e colors.jpg
+    python steg_brute.py -b -d dic.txt -f colors.jpg
     #Password: colors
     ```
 
