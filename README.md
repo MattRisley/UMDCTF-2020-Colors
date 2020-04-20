@@ -31,7 +31,7 @@ Since this is a steganography problem first choice could be `steghide`
 
     ```bash
     steghide extract -sf colors.jpg 
-    #Enter passphrase:
+    > Enter passphrase:
     ```
 3. Using a dictionary brute force attack on the passphase might do the trick
     * Downloading a Steghide Brute Force Tool
@@ -43,7 +43,7 @@ Since this is a steganography problem first choice could be `steghide`
 
     ```bash
     python steg_brute.py -b -d dic.txt -f colors.jpg
-    #Password: colors
+    > Password: colors
     ```
 
 4. Opening the message.txt file hidden within the image
